@@ -21,6 +21,7 @@
     "bignumber.js": "^9.1.2"
   },
   "dependencies": {
+    "@ankr.com/ankr.js": "^0.5.2",
     "@seda-protocol/as-sdk": "^0.0.15",
     "@seda-protocol/vm": "^0.0.4"
   }
