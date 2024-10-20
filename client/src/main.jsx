@@ -8,13 +8,14 @@ import { Route } from 'react-router-dom'
 import Home from './components/Home.jsx'
 import Navbar from './components/Navbar.jsx'
 import Started from './components/Started.jsx'
-
+import AccountBalance from './components/AccountBalance.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
     <Route path='/' element={<Home/>}/>
     <Route path='/started' element={<Started/>}/>
+    <Route path='/account-balance' element={<AccountBalance/>}/>
     </Route>
   )
 )
