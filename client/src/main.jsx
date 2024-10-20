@@ -9,6 +9,10 @@ import Home from './components/Home.jsx'
 import Navbar from './components/Navbar.jsx'
 import Started from './components/Started.jsx'
 import AccountBalance from './components/AccountBalance.jsx'
+import GetCurrencies from './components/GetCurrencies.jsx'
+import GetTokenHolders from './components/GetTokenHolders.jsx'
+import GetTokenTransfer from './components/GetTokenTransfer.jsx'
+import GetTokenPrize from './components/GetTokenPrize.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +20,10 @@ const router = createBrowserRouter(
     <Route path='/' element={<Home/>}/>
     <Route path='/started' element={<Started/>}/>
     <Route path='/account-balance' element={<AccountBalance/>}/>
+    <Route path='/currencies' element={<GetCurrencies/>}/>
+    <Route path='/tokenholders' element={<GetTokenHolders/>}/>
+    <Route path='/tokentransfer' element={<GetTokenTransfer/>}/>
+    <Route path='/tokenprize' element={<GetTokenPrize/>}/>
     </Route>
   )
 )

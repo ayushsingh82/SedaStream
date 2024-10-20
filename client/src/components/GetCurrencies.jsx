@@ -12,7 +12,7 @@ const networks = [
   ];
   
 
-const AccountBalance = () => {
+const GetCurrencies = () => {
 
     const [selectedNetwork, setSelectedNetwork] = useState(null); // Manage selected network state
     const [dropdownOpen, setDropdownOpen] = useState(false); // Manage dropdown open/close state
@@ -28,7 +28,7 @@ const AccountBalance = () => {
 
   return (
     <section className="pt-4 md:pt-6 bg-gradient-to-b from-[#1F1B30] via-[#3A2A52] to-[#4A3A78] overflow-x-clip h-screen w-screen text-center text-white ">
-   <span className='font-semibold text-xl'>Account balance</span> 
+   <span className='font-semibold text-xl'>GetCurrencies</span> 
    
     <div className="flex justify-center items-center mb-6">
     <div className="text-center">
@@ -92,4 +92,4 @@ const AccountBalance = () => {
   );
 };
 
-export default AccountBalance;
+export default GetCurrencies;
