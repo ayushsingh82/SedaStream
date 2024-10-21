@@ -78,11 +78,6 @@ const Home = () => {
                   className="h-12 w-auto"
                 />
                 <img
-                  src="https://cryptologos.cc/logos/aptos-apt-logo.svg?v=024"
-                  alt="Aptos Logo"
-                  className="h-12 w-auto"
-                />
-                <img
                   src="https://cryptologos.cc/logos/arbitrum-arb-logo.svg?v=024"
                   alt="Arbitrum Logo"
                   className="h-12 w-auto"
@@ -90,11 +85,6 @@ const Home = () => {
                 <img
                   src="https://cryptologos.cc/logos/polygon-matic-logo.svg?v=024"
                   alt="Polygon Logo"
-                  className="h-12 w-auto"
-                />
-                <img
-                  src="https://cryptologos.cc/logos/sui-sui-logo.svg?v=024"  // Sui Logo
-                  alt="Sui Logo"
                   className="h-12 w-auto"
                 />
                 <img
