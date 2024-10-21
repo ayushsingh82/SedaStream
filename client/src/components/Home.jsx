@@ -18,7 +18,7 @@ const Home = () => {
             </p>
             <div className="flex gap-3 items-center mt-[30px]">
               <a href="">
-                <button className="btn btn-primary px-5 py-3 bg-black text-white rounded-md">Get Started</button>
+                <button className="btn btn-primary px-5 py-3 bg-black text-white rounded-md"><a href='/started'>Get Started</a></button>
               </a>
               <button className="btn btn-text gap-1 px-5 py-3 bg-transparent text-white border-white border rounded-md">
                 <span>Learn more</span>
@@ -62,6 +62,16 @@ const Home = () => {
                   alt="Base Logo"
                   className="h-12 w-auto"
                 />
+                <img
+  src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png"
+  alt="Binance Smart Chain Logo"
+  className="h-12 w-auto"
+/>
+<img
+  src="https://cryptologos.cc/logos/avalanche-avax-logo.png"
+  alt="Avalanche Logo"
+  className="h-12 w-auto"
+/>
                 <img
                   src="https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=024"
                   alt="Ethereum Logo"

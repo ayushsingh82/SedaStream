@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'; // Import Link from React Router
 const networks = [
   { value: 'optimism', label: 'Optimism', image: 'https://cryptologos.cc/logos/optimism-ethereum-op-logo.png' },
   { value: 'arbitrum', label: 'Arbitrum', image: 'https://cryptologos.cc/logos/arbitrum-arb-logo.png' },
-  { value: 'base', label: 'Base', image: 'https://cryptologos.cc/logos/base-base-logo.png?v=024' },
   { value: 'ethereum', label: 'Ethereum', image: 'https://cryptologos.cc/logos/ethereum-eth-logo.png' },
   { value: 'avalanche', label: 'Avalanche', image: 'https://cryptologos.cc/logos/avalanche-avax-logo.png' },
   { value: 'polygon', label: 'Polygon', image: 'https://cryptologos.cc/logos/polygon-matic-logo.png' }
