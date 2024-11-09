@@ -14,6 +14,9 @@ import GetTokenHolders from './components/GetTokenHolders.jsx'
 import GetTokenTransfer from './components/GetTokenTransfer.jsx'
 import GetTokenPrize from './components/GetTokenPrize.jsx'
 import Base from './Base.jsx'
+import Arbitrum from './Arbitrum.jsx'
+import Ethereum from './Ethereum.jsx'
+import Multichain from './Multichain.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -21,6 +24,9 @@ const router = createBrowserRouter(
     <Route path='/' element={<Home/>}/>
     <Route path='/started' element={<Started/>}/>
     <Route path='/base' element={<Base/>}/>
+    <Route path='/arbitrum' element={<Arbitrum/>}/>
+    <Route path='/ethereum' element={<Ethereum/>}/>
+    <Route path='/multichain' element={<Multichain/>}/>
     <Route path='/account-balance' element={<AccountBalance/>}/>
     <Route path='/currencies' element={<GetCurrencies/>}/>
     <Route path='/tokenholders' element={<GetTokenHolders/>}/>
