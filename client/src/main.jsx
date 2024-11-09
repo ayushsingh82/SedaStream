@@ -13,12 +13,14 @@ import GetCurrencies from './components/GetCurrencies.jsx'
 import GetTokenHolders from './components/GetTokenHolders.jsx'
 import GetTokenTransfer from './components/GetTokenTransfer.jsx'
 import GetTokenPrize from './components/GetTokenPrize.jsx'
+import Base from './Base.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route>
     <Route path='/' element={<Home/>}/>
     <Route path='/started' element={<Started/>}/>
+    <Route path='/base' element={<Base/>}/>
     <Route path='/account-balance' element={<AccountBalance/>}/>
     <Route path='/currencies' element={<GetCurrencies/>}/>
     <Route path='/tokenholders' element={<GetTokenHolders/>}/>
