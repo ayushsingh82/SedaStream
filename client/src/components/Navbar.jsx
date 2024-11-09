@@ -11,7 +11,7 @@ function Navbar() {
         <nav>
             <div className='flex flex-row mx-auto px-[40px] py-[25px] justify-between items-center mt-[0px] bg-[#1F1B30]'>
                 <div className='font-bold text-2xl text-white'>
-                    <a href='/'>Seda</a>
+                    <a href='/'>SedaStream</a>
                 </div>
 
                 {/* Dropdown button */}
@@ -31,7 +31,13 @@ function Navbar() {
                                     <a href='/base'>Base</a>
                                 </li>
                                 <li className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>
-                                    <a href='/'>Drop2</a>
+                                    <a href='/ethereum'>Ethereum</a>
+                                </li>
+                                <li className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>
+                                    <a href='/arbitrum'>Arbitrum</a>
+                                </li>
+                                <li className='px-4 py-2 hover:bg-gray-100 cursor-pointer'>
+                                    <a href='/multichain'>Multichain</a>
                                 </li>
                             </ul>
                         </div>

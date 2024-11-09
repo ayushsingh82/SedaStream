@@ -11,7 +11,7 @@ const Home = () => {
           <div className="md:w-[478px]">
             <div className="tag text-white mt-[100px]">Version 1.0 is here</div>
             <h1 className="text-4xl md:text-5xl font-bold tracking-tighter bg-gradient-to-b from-gray-200 via-green-200 to-green-300 text-transparent bg-clip-text mt-6">
-              Seda cross chain
+              Seda cross chain data feed
             </h1>
             <p className="text-xl text-white tracking-tight mt-6">
               Simplifying the tracking
@@ -87,11 +87,7 @@ const Home = () => {
                   alt="Polygon Logo"
                   className="h-12 w-auto"
                 />
-                <img
-                  src="https://cryptologos.cc/logos/solana-sol-logo.svg?v=024"  // Solana Logo
-                  alt="Solana Logo"
-                  className="h-12 w-auto"
-                />
+
               </motion.div>
             </div>
           </div>
@@ -105,7 +101,7 @@ const Home = () => {
           >
             {/* Infinite Y-axis up and down movement */}
             <motion.img
-              src="https://academy-public.coinmarketcap.com/srd-optimized-uploads/035fd00794a54da6a01e8653343e86d7.jpeg"
+              src="https://docs.seda.xyz/~gitbook/image?url=https%3A%2F%2F4237789557-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FWTQafbsjeB6Wu0r07ksa%252Fuploads%252F6kvpx3auZEroSXup66PV%252FEnding%2520Slide%2520Option%25201-12.png%3Falt%3Dmedia%26token%3Da27e3cab-37b1-4974-ba63-e88418433059&width=1248&dpr=2&quality=100&sign=6eb30697&sv=1"
               alt="Aligned Layer Image"
               className="rounded-lg shadow-lg h-[200px]"
               animate={{ y: [-10, 10, -10] }}  // Moves 10px up and down
