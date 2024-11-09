@@ -4,6 +4,26 @@
   </a>
 </p>
 
+# SedaStream
+
+SedaStream is a multichain data feed platform designed to provide real-time access to on-chain transaction data. With support for major blockchain networks like Ethereum, Polygon, Base, and Arbitrum, SedaStream aims to empower developers, analysts, and blockchain enthusiasts with seamless access to decentralized financial data.
+
+## Features
+
+- **Multichain Support**: Fetch and analyze on-chain data across Ethereum, Polygon, Base, and Arbitrum.
+- **Real-Time Data**: Access up-to-the-second transaction data for accurate, actionable insights.
+- **High Performance**: Optimized data fetching to ensure reliable and fast information delivery.
+- **Customizable Feeds**: Tailor data streams based on specific needs and network preferences.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/SedaStream.git
+   cd SedaStream
+
+
 <h1 align="center">
   SEDA Request Starter Kit
 </h1>
